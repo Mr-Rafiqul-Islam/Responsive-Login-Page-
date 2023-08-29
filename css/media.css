@@ -1,0 +1,80 @@
+
+/* x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+    
+}
+
+/* large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .login_content p {
+        padding: 20px 40px;
+    }
+    .fa-2x {
+        font-size: 1.5em;
+    }
+}
+/* medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .navbar-nav{
+        text-align: center;
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    }
+    input.form-control{
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+
+    }
+    .form{
+        text-align: center;
+    
+    }
+
+    .login_content h2 {
+        font-size: 18px;
+    }
+    .login_content input.form-control::placeholder{
+        font-size: 12px;
+    }
+    .login_content p {
+        padding: 20px 0px;
+    }
+    .fa-2x {
+        font-size: 18px;
+    }
+    .icons a {
+        margin: 0 6px;
+    }
+}
+
+ /* small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) {
+    #banner {
+        padding: 150px 0;
+    }
+    .banner_content {
+        text-align: center;
+    }
+    .login_content {
+        margin-top: 50px;
+    }
+    .login_content input.form-control::placeholder{
+        font-size: 16px;
+    }
+    .fa-2x {
+        font-size: 2em;
+    }
+ }
+
+ /* x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .banner_content h1 {
+        font-size: 45px;
+    }
+    .banner_content h1 span{
+        font-size: 55px;
+    }
+    .login_content p {
+        padding: 20px 55px;
+    }
+    
+    
+}
