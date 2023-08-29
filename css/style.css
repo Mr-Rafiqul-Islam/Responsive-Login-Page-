@@ -73,12 +73,13 @@ header form button:hover{
 /* Header Ends HERE  */
 
 /* Banner Starts HERE  */
-#banner{
+#banner {
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../images/1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 200px 0;
+    padding: 294px 0;
+    height: 100vh;
 }
 .banner_content{
     padding-left: 20px;
